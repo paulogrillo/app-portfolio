@@ -1,11 +1,10 @@
 import Nav from '../components/nav/nav'
 import Hero from '../components/hero/Hero'
-import Projetos from '../components/projetos/Projetos'
+import HardSkils from '../components/curriculum/HardSkils'
 import Layer from '../components/layer/Layer'
-
-
-
 import React from 'react'
+import SoftSkils from '../components/curriculum/SoftSkils'
+import Projetos from '../components/projetos/Projetos'
 
 export default function IndexPage() {
   return (
@@ -14,7 +13,11 @@ export default function IndexPage() {
         <Nav />
         <Hero />
         <Layer />
+        <HardSkils />
         <Projetos />
+        <SoftSkils />
+
+        
 
       
       </div>

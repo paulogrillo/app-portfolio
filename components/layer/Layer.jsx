@@ -2,7 +2,7 @@
 
 export default function Layer(){
     return(
-        <div class="w-full h-35   ">
+        <div class="w-full h-35  bg-white  ">
         
             <div class="flex flex-wrap space-x-4 justify-center ">
                 <img className="w-300 h-180" src="/magento.jpg" alt=""/>
