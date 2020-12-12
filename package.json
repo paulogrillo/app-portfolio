@@ -7,9 +7,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "@chakra-ui/react": "^1.0.3",
+    "@emotion/react": "^11.1.2",
+    "@emotion/styled": "^11.0.0",
+    "@szhsin/react-menu": "^1.1.0",
+    "framer-motion": "^2.9.5",
     "next": "latest",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-icons": "^4.1.0",
+    "react-typist": "^2.0.5"
   },
   "devDependencies": {
     "autoprefixer": "10.0.2",
