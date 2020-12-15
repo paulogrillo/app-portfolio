@@ -20,10 +20,12 @@ export default function Layer(){
       
                     
 
-                <img className="lg:w-52 " src="/magento.jpg" alt=""/>
-                <img className="lg:w-52 "src="/wordpress.jpg" alt=""/>
+                
+              
                 <img className="lg:w-52 " src="/next.png" alt=""/>
+                <img className="lg:w-52 "src="/wordpress.jpg" alt=""/>
                 <img className="lg:w-52 " src="/rd.jpg" alt=""/>
+                <img className="lg:w-52 " src="/magento.jpg" alt=""/>
                 <img className="lg:w-52 " src="/google.jpg" alt=""/>
                
             </div>

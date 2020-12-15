@@ -1,9 +1,9 @@
 import Nav from '../components/nav/nav'
 import Hero from '../components/hero/Hero'
-import HardSkils from '../components/curriculum/HardSkils'
+import Skills from '../components/Skills/Skills'
 import Layer from '../components/layer/Layer'
 import React from 'react'
-import SoftSkils from '../components/curriculum/SoftSkils'
+
 import Projetos from '../components/projetos/Projetos'
 import Footer from '../components/footer/Footer'
 
@@ -25,14 +25,16 @@ export default function IndexPage() {
         <Layer />
    
         
-        <Element name="test2" className="element">
-                <HardSkils />
+        <Element name="skills">
+                
+                <Skills />
         </Element>
         
-        <Projetos />
-        <Footer />
+        <Element name="projetos">
+           <Projetos />
+        </Element>
        
-
+        <Footer />
       
       </div>
   

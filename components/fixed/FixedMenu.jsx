@@ -4,7 +4,7 @@ import React from 'react';
 export default function FixedMenu(){
     return(
         <div className="lg:grid lg:inset-y-80 flex-row lg:fixed  grid absolute inset-y-36">
-            <ul className="space-y-9">
+            <ul className="space-y-9 animate-pulse duration-1000">
                 
             
             <li className="
@@ -23,8 +23,8 @@ export default function FixedMenu(){
                     ">
                 <Link 
                 activeClass="active" 
-                className="test2" 
-                to="test2" 
+               
+                to="skills" 
                 spy={true} 
                 smooth={true} 
                 duration={500}>
@@ -47,8 +47,7 @@ export default function FixedMenu(){
                     ">
                 <Link 
                 activeClass="active" 
-                className="test2" 
-                to="test2" 
+                to="skills" 
                 spy={true} 
                 smooth={true} 
                 duration={500}>
@@ -71,8 +70,7 @@ export default function FixedMenu(){
                     ">
                 <Link 
                 activeClass="active" 
-                className="test2" 
-                to="test2" 
+                to="projetos" 
                 spy={true} 
                 smooth={true} 
                 duration={500}>

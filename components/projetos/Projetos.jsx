@@ -2,7 +2,7 @@ import react from 'react'
 import React from 'react'
 import { AiOutlineCode } from 'react-icons/ai'
 import FaixaProjeto from '../partials/FaixaProjeto';
-import CardProjetos from '../partials/CardProjetos'
+import CardProjetos from './CardProjetos'
 
 
 export default function Projetos(){
@@ -11,10 +11,7 @@ export default function Projetos(){
                       <FaixaProjeto />  
                       <div class="py-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="lg:text-center">
-          
-              <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Marketing, Performance & Transformação Digital.
-          </p>
+      
         </div>
         
         <CardProjetos />
