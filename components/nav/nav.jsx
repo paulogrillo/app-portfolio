@@ -6,16 +6,16 @@ import Menu from '../menu/Menu'
 
 export default function Nav() {
   return (
-    <nav className="mx-auto bg-gray- md:px-40 
+    <nav className=" h-20 mx-auto md:px-40 
     ">
       <ul className="flex items-center justify-between p-8 ">
         <li className="flex space-x-2 space-y-2">
 
-          <div className="flex space-x-4">
+          <div className="flex space-x-2">
           <Image 
-            src="/favicon-icon.png"
-            width={35}
-            height={30}
+            src="/logo05.svg"
+            width={22}
+            height={22}
   
           />
            <p className="font-mono ">Paulo Grillo</p>

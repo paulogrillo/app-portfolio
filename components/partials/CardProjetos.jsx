@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function CardProjetos(){
     return(
         <div class="mt-10">

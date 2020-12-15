@@ -2,11 +2,12 @@ import React, { Children } from 'react'
 import Image from 'next/image'
 import TypeWriter from '../escritor/TypeWriter'
 
+
 export default function Hero({Children}){
     return(
         
             <div 
-            class="bg-gray-50 container lg:mt-40 ">
+            class="bg-white container lg:mt-40 ">
             
             
 
@@ -20,8 +21,9 @@ export default function Hero({Children}){
                     />
                 
                 <TypeWriter />
-
+                
             </div>
+            
             </div>
      
     )

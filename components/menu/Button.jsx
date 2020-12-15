@@ -8,20 +8,48 @@ import {
     MenuButton
 } from '@szhsin/react-menu';
 import '@szhsin/react-menu/dist/index.css';
-import next from 'next';
 
 export default function Example() {
     return (
         <div>
-            <Menu  menuButton={<MenuButton><AiOutlineMenuFold /></MenuButton>}>
+            <Menu styles={{
+                color: '#5c6ac4',
+                backgroundColor: 'white',
                 
-            <MenuItem>Curriculum</MenuItem>
+                hover: {
+                    color: '#5c6ac4',
+                    backgroundColor: '#5c6ac4'
+                },
+                active: {
+                    backgroundColor: '#5c6ac4'
+                }
+            }} menuButton={ 
+            <MenuButton styles={{
+                border: 'none',
+                color: 'black',
+                border: '2px solid #5c6ac4',
+
+                
+               
+
+            }}  >
+                
+                <AiOutlineMenuFold 
+                size={20}
+                color="#5c6ac4"
+                />
+            
+            </MenuButton>}>
+                
+            <MenuItem>
+            <Link href="/curriculum-2020.pdf">Curriculum</Link>
+            </MenuItem>
           
             <MenuItem>  <Link href="/#servicos">
             Serviços </Link>
             </MenuItem>
         
-            <MenuItem>Stacks</MenuItem>
+            <MenuItem>Orçamentos</MenuItem>
         </Menu> 
         </div>
        

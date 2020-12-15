@@ -5,19 +5,33 @@ import Layer from '../components/layer/Layer'
 import React from 'react'
 import SoftSkils from '../components/curriculum/SoftSkils'
 import Projetos from '../components/projetos/Projetos'
+import Footer from '../components/footer/Footer'
+
+import FixedMenu from '../components/fixed/FixedMenu'
+
+import { Element } from 'react-scroll'
+
+
+
 
 export default function IndexPage() {
   return (
       <div>
-         <link rel="shortcut icon" href="/favicon-icon.png" />
+          <FixedMenu />
         <Nav />
-        <Hero />
-        <Layer />
-        <HardSkils />
-        <Projetos />
-      
-
         
+        <Hero />
+       
+        <Layer />
+   
+        
+        <Element name="test2" className="element">
+                <HardSkils />
+        </Element>
+        
+        <Projetos />
+        <Footer />
+       
 
       
       </div>
