@@ -28,7 +28,7 @@ export default function FixedMenu(){
                 spy={true} 
                 smooth={true} 
                 duration={500}>
-                    Hard Skils
+                    Hard Skills
                 </Link>
             </li>
             <li className="
@@ -51,7 +51,7 @@ export default function FixedMenu(){
                 spy={true} 
                 smooth={true} 
                 duration={500}>
-                    Soft Skils
+                    Soft Skills
                 </Link>
             </li>
             <li className="
