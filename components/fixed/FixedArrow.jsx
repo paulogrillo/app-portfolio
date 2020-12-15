@@ -11,7 +11,7 @@ export default function FixedArrow(){
             <Link 
                 activeClass="active" 
                 className="p-0 w-20 h-10" 
-                to="test2" 
+                to="skills" 
                 spy={true} 
                 smooth={true} 
                 duration={900} 
