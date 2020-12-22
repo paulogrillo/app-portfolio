@@ -1,7 +1,7 @@
 import Nav from '../components/nav/nav'
 import Hero from '../components/hero/Hero'
 import Skills from '../components/Skills/Skills'
-import Layer from '../components/layer/Layer'
+import LayerArrow from '../components/layer/LayerArrow'
 import React from 'react'
 
 import Projetos from '../components/projetos/Projetos'
@@ -22,7 +22,7 @@ export default function IndexPage() {
         
         <Hero />
        
-        <Layer />
+        <LayerArrow />
    
         
         <Element name="skills">

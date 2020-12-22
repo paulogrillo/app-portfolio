@@ -88,18 +88,18 @@ export default function HardSkils(){
              
               <dd class="mt-2 py-2">
                <dt>
-                 <p className="font-medium text-opacity-70  text-gray-700">
-                  Marketing
+                 <p className="font-medium text-opacity-70  text-gray-700 py-2 space-y-2">
+                 <hr/>
+                  Marketing plan
                   <hr/>
-                  Planejamento
+                  Digital presence
                   <hr/>
-                  Metodologias
+                  Customer reviews
                   <hr/>
-                  Criação
-                  <hr/>
+                  A/B
                   Performance
                   <hr/>
-                  Resultados
+                  Data visualization
                  </p>
                </dt>
                <div className="flex space-x-2 justify-center pt-4 pb-4 w-full space-x-4 text-base text-gray-500 ">
@@ -144,10 +144,11 @@ export default function HardSkils(){
              
               <dd class="mt-2 py-2 ">
                <dt>
-                 <p className="font-medium text-opacity-70  text-gray-700">
-                  Implantação
+                 <p className="font-medium text-opacity-70  text-gray-700 py-2 space-y-2">
+                 <hr/>
+                  Planning 
                   <hr/>
-                  Desenvolvimento
+                  Deployment
                   <hr/>
                   Marketplaces
                   <hr/>
@@ -155,7 +156,7 @@ export default function HardSkils(){
                   <hr/>
                   SEO
                   <hr/>
-                  Plataformas
+                  Measurement
                  </p>
                </dt>
                <div className="flex space-x-2 justify-center pt-4 pb-4 w-full space-x-4 text-base text-gray-500 p-4">
@@ -195,13 +196,14 @@ export default function HardSkils(){
             <div class="flex self-center h-auto justify-center rounded-md bg-indigo-500 text-white p-2">
                 <FcMultipleDevices size={36}/>
                 <dt class="text-lg leading-6 font-medium p-1 m-px">
-                Web Devepoler
+                Web development
               </dt>
               </div>
              
               <dd class="mt-2 py-2">
                <dt>
-                 <p className=" font-medium text-opacity-70  text-gray-700">
+                 <p className=" font-medium text-opacity-70  text-gray-700 py-2 space-y-2">
+                 <hr/>
                  Data Analytics
                   <hr/>
                   System design

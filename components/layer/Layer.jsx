@@ -16,17 +16,17 @@ export default function Layer(){
            
 
         
-        <div class="flex flex-wrap space-x-8 justify-center ">
+        <div class=" flex flex-wrap justify-center space-y-4 space-x-3">
       
                     
 
                 
-              
-                <img className="lg:w-52 " src="/next.png" alt=""/>
-                <img className="lg:w-52 "src="/wordpress.jpg" alt=""/>
-                <img className="lg:w-52 " src="/rd.jpg" alt=""/>
-                <img className="lg:w-52 " src="/magento.jpg" alt=""/>
-                <img className="lg:w-52 " src="/google.jpg" alt=""/>
+                <img className=" w-64 h-48" src="/magento.jpg" alt=""/>
+                <img className=" w-64 h-48" src="/next.png" alt=""/>
+                <img className=" w-64 h-48"src="/wordpress.jpg" alt=""/>
+                <img className=" w-64 h-48" src="/rd.svg" alt=""/>
+                
+                <img className="w-64 h-48" src="/google.jpg" alt=""/>
                
             </div>
            
