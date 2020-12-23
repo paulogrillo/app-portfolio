@@ -12,14 +12,16 @@ export default function CardProjetos(){
             <div
               className="
               cursor-pointer 
-              h-10
+              h-16
               w-full
-              
+              rounded-lg
+              hover:bg-green-400
               bg-accent-1
+              transition
               flex
               justify-center
               ">
-                <h1 className="text-current dark:divide-current font-medium text-3xl text-green-200 hover:text-green-50">Marketing Digital</h1>
+                <h1 className="mt-2 text-current dark:divide-current font-medium text-3xl text-green-200 hover:text-green-50">Marketing Digital</h1>
               </div>
 
                     {/* Portfolio 01 */}
@@ -30,7 +32,7 @@ export default function CardProjetos(){
                     <div className="space-y-2">
                         <Link href="/projetos/marketing-digital/portfolio-marketing.pdf" >
                         <img 
-                              src="/projetos/marketing-digital/rd-station.svg" 
+                              src="/projetos/marketing-digital/image-01.png" 
                               alt=""
                               className="
                               h-auto
@@ -47,7 +49,7 @@ export default function CardProjetos(){
                         </h2>
                         <Link href="/projetos/marketing-digital/portfolio-marketing.pdf"  >
                         <img 
-                              src="/projetos/marketing-digital/portfolio-02.svg" 
+                              src="/projetos/marketing-digital/image-02.png" 
                               alt=""
                               className="
                               h-auto
@@ -67,13 +69,16 @@ export default function CardProjetos(){
             <div
               className="
               cursor-pointer 
-              h-10
+              h-16
               w-full
+              rounded-lg
+              hover:bg-green-400
               bg-accent-1
               flex
               justify-center
+            
               ">
-                <h1 className="text-current dark:divide-current font-medium text-3xl text-green-200 hover:text-green-50">Web Apps</h1>
+                <h1 className="mt-2 text-current dark:divide-current font-medium text-3xl text-green-200 hover:text-green-50">Web Apps</h1>
               </div>
             
                     <div className="space-y-2 ">
@@ -85,7 +90,7 @@ export default function CardProjetos(){
                         </h2>
                         <Link href="https://agenda-cultural-1.herokuapp.com/" >
                         <img 
-                              src="/projetos/agenda-cultural/agenda-cultural.svg" 
+                              src="/projetos/agenda-cultural/agenda.png" 
                               alt=""
                               className="
                               h-auto
@@ -103,7 +108,7 @@ export default function CardProjetos(){
                         </h2>
                         <Link href="https://next-level.herokuapp.com/" >
                         <img 
-                              src="/projetos/ecoleta/ecoleta-desktop.svg" 
+                              src="/projetos/ecoleta/ecoleta.png" 
                               alt=""
                               className="
                               h-auto
@@ -120,7 +125,7 @@ export default function CardProjetos(){
                         </h2>
                         <Link href="https://proffy-rouge.vercel.app/" >
                         <img 
-                              src="/projetos/proffy/desktop-home.svg" 
+                              src="/projetos/proffy/proffy.png" 
                               alt=""
                               className="
                               h-auto
@@ -138,14 +143,16 @@ export default function CardProjetos(){
             <div
               className="
               cursor-pointer 
-              h-10
+              h-16
               w-full
-              
+              rounded-lg
+              hover:bg-green-400
+              transition
               bg-accent-1
               flex
               justify-center
               ">
-                <h1 className="text-current dark:divide-current font-medium text-3xl text-green-200 hover:text-green-50">E-commerce</h1>
+                <h1 className="mt-2 text-current dark:divide-current font-medium text-3xl text-green-200 hover:text-green-50">E-commerce</h1>
               </div>
                     
                     {/* Lojas Central Fogões */}
@@ -155,14 +162,16 @@ export default function CardProjetos(){
                     </h2>
                     <div className="space-y-2 py-2">
                         <Link href="https://centralfogoes.com.br/" >
+                        
                         <img 
-                              src="/projetos/e-commerce/centralfogoes.svg" 
+                              src="/projetos/e-commerce/loja-01.png" 
                               alt=""
                               className="
                               h-auto
                               cursor-pointer
                               hover:opacity-60
                               transition
+                              
                               
                               "/>
                         </Link>
@@ -173,7 +182,7 @@ export default function CardProjetos(){
                         </h2>
                         <Link href="https://lojasisaura.com.br/" >
                         <img 
-                              src="/projetos/e-commerce/isaura.svg" 
+                              src="/projetos/e-commerce/loja-02.png" 
                               alt=""
                               className="
                               h-auto
