@@ -2,13 +2,12 @@ import { Container } from 'postcss';
 import React from 'react';
 
 
-import FixedArrow from '../fixed/FixedArrow'
-
+import Link from 'next/link'
 
 export default function Layer(){
     return(
         <div>
-            <FixedArrow />
+            
              <div class="w-full h-35  bg-white  ">
            
         
@@ -20,13 +19,25 @@ export default function Layer(){
       
                     
 
-                
-                <img className=" w-64 h-48" src="/magento.jpg" alt=""/>
-                <img className=" w-64 h-48" src="/next.png" alt=""/>
-                <img className=" w-64 h-48"src="/wordpress.jpg" alt=""/>
-                <img className=" w-64 h-48" src="/rd.svg" alt=""/>
-                
-                <img className="w-64 h-48" src="/google.jpg" alt=""/>
+        <ul className="flex flex-wrap sm:space-x-7 space-x-2 ">
+                        <li className="cursor-pointer w-32">
+                            <Link href="https://github.com/paulogrillo">
+                                <img src="/social/codewars.png" alt="" className="w-60"/>
+                            </Link> 
+                        </li>
+
+                        <li className="cursor-pointer w-32">
+                            <Link href="https://github.com/paulogrillo">
+                                <img src="/social/freecodecamp.svg" alt="" className="w-auto"/>
+                            </Link> 
+                        </li>
+
+                        <li className="cursor-pointer w-32">
+                            <Link href="https://github.com/paulogrillo">
+                                <img src="/social/hackrank.svg" alt="" className="w-auto"/>
+                            </Link> 
+                        </li>
+                </ul>
                
             </div>
            

@@ -13,7 +13,7 @@ export default function Nav() {
 
           <div className="flex space-x-2">
           <Image 
-            src="/logo05.svg"
+            src="/global/logo05.svg"
             width={22}
             height={22}
   

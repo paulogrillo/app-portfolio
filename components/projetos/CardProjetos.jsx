@@ -5,10 +5,10 @@ import { DiCode } from 'react-icons/di';
 export default function CardProjetos(){
   return(
     <div class="mt-6">
-      <div class="flex flex-1 flex-wrap justify-center space-x-4 space-y-1 ">
+      <div class="flex flex-wrap justify-center space-x-4 space-y-1 ">
 
          {/* Marketing Digital */}
-          <div className="lg:w-3/12 ">
+          <div className="lg:w-2/12">
             <div
               className="
               cursor-pointer 
@@ -65,7 +65,7 @@ export default function CardProjetos(){
 
 
           {/* WEB APPS */}
-          <div className="lg:w-3/12 ">
+          <div className="lg:w-2/12 ">
             <div
               className="
               cursor-pointer 
@@ -83,24 +83,7 @@ export default function CardProjetos(){
             
                     <div className="space-y-2 ">
                         
-                        {/* Agenda cultural */} 
-                        <h2 className="flex justify-center py-2"> 
-                              <DiCode size={26} />
-                              Building
-                        </h2>
-                        <Link href="https://agenda-cultural-1.herokuapp.com/" >
-                        <img 
-                              src="/projetos/agenda-cultural/agenda.png" 
-                              alt=""
-                              className="
-                              h-auto
-                              cursor-pointer
-                              hover:opacity-60
-                              transition
-                              "/>
-                              
-                        </Link>
-
+                        
                         {/*  E-coleta - Bootcamp */} 
                         <h2 className="flex justify-center py-2"> 
                               <DiCode size={26} />
@@ -108,7 +91,7 @@ export default function CardProjetos(){
                         </h2>
                         <Link href="https://next-level.herokuapp.com/" >
                         <img 
-                              src="/projetos/ecoleta/ecoleta.png" 
+                              src="/projetos/ecoleta/acoleta-01.png" 
                               alt=""
                               className="
                               h-auto
@@ -125,7 +108,7 @@ export default function CardProjetos(){
                         </h2>
                         <Link href="https://proffy-rouge.vercel.app/" >
                         <img 
-                              src="/projetos/proffy/proffy.png" 
+                              src="/projetos/proffy/proffy-01.png" 
                               alt=""
                               className="
                               h-auto
@@ -139,7 +122,7 @@ export default function CardProjetos(){
               </div>
 
           {/* E-commerce */}
-          <div className="lg:w-3/12 ">
+          <div className="lg:w-2/12 ">
             <div
               className="
               cursor-pointer 

@@ -1,6 +1,8 @@
 
 import React from 'react';
 import Link from 'next/link'
+
+import Social from '../social/Social'
 import { AiOutlineMenuFold } from 'react-icons/ai';
 import {
     Menu,
@@ -8,6 +10,7 @@ import {
     MenuButton
 } from '@szhsin/react-menu';
 import '@szhsin/react-menu/dist/index.css';
+import { Divider } from '@chakra-ui/react';
 
 export default function Example() {
     return (
@@ -59,6 +62,11 @@ export default function Example() {
                      Baixar Curriculum
                 </Link>
             </MenuItem>
+            <Divider />
+            <MenuItem>
+                <Social />
+            </MenuItem>
+            
         </Menu> 
         </div>
        

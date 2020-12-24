@@ -9,7 +9,9 @@ import Footer from '../components/footer/Footer'
 
 import FixedMenu from '../components/fixed/FixedMenu'
 
+
 import { Element } from 'react-scroll'
+import Layer from '../components/layer/Layer'
 
 
 
@@ -19,11 +21,12 @@ export default function IndexPage() {
       <div>
           <FixedMenu />
         <Nav />
+      
         
         <Hero />
-       
+        
         <LayerArrow />
-   
+       
         
         <Element name="skills">
                 

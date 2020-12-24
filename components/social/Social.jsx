@@ -34,6 +34,7 @@ export default function Social(){
                         />
                     </Link> 
                 </li>
+
             </ul>
         </div>
     );
