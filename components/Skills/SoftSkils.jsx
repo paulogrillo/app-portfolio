@@ -35,7 +35,7 @@ export default function SoftSkils(){
               <div class=" de  flex items-center justify-center p-2 rounded-md  text-white border-double border-4 border-purple-300   w-full bg-indigo-200 hover:border-purple-800">
               <WiDirectionRight color="black" size={40} />
               <dt class="leading-6 text-base text-black">
-              liderança
+              Liderança
               </dt>
               </div>
           </div>
