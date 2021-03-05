@@ -1,14 +1,12 @@
 import react from 'react'
 import React from 'react'
 import { AiOutlineCode } from 'react-icons/ai'
-import FaixaProjeto from '../partials/FaixaProjeto';
 import CardProjetos from './CardProjetos'
 
 
 export default function Projetos(){
     return(
-    <div className=" ">
-                <FaixaProjeto />  
+    <div >
                 <div class="grid content-center object-center">
                     <CardProjetos />
                 </div>  

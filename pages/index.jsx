@@ -12,8 +12,13 @@ import FixedMenu from '../components/fixed/FixedMenu'
 
 import { Element } from 'react-scroll'
 import Layer from '../components/layer/Layer'
+import SoftSkils from '../components/Skills/SoftSkils'
 
+import FaixaHardSkills from '../components/partials/FaixaHardSkills'
+import FaixaSoftSkills from '../components/partials/FaixaSoftSkills'
+import FaixaProjetos from '../components/partials/FaixaProjeto'
 
+import Voltar from '../components/fixed/Voltar'
 
 
 export default function IndexPage() {
@@ -25,18 +30,25 @@ export default function IndexPage() {
         
         <Hero />
         
-        <LayerArrow />
        
         
         <Element name="skills">
-                
-                <Skills />
+          <FaixaHardSkills />         
         </Element>
-        
+        <Skills />
+
+
+        <Element name="softskils">
+          <FaixaSoftSkills />
+        </Element>
+        <SoftSkils />
+
         <Element name="projetos">
-           <Projetos />
+          <FaixaProjetos />
         </Element>
+        <Projetos />
        
+       <Voltar />
         <Footer />
       
       </div>
