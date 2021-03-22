@@ -16,15 +16,15 @@ function TypeWriter() {
     <div className="h-40 sm:mb-48 px-12 "  >
 
       {count ? (
-        <div>
-          <Typist avgTypingDelay={120} onTypingDone={() => setCount(0)}>
+        <div className="w-60">
+          <Typist className="opacity-60" avgTypingDelay={110} onTypingDone={() => setCount(0)}>
 
-            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-              <span class="block">Marketing, Peformance</span>
+            <h2 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
+              <span class="block">Front end, Design</span>
 
               <span class="block">&</span>
-              <Typist.Delay count={5} delay={2000} />
-              <span class="block text-indigo-600">Transformação Digital</span>
+              <Typist.Delay count={6} delay={5000} />
+              <span class="block  text-indigo-600">Transformação Digital</span>
 
             </h2>
 

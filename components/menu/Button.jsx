@@ -14,7 +14,7 @@ import { Divider } from '@chakra-ui/react';
 
 export default function Example() {
     return (
-        <div>
+        <>
             <Menu styles={{
                 color: '#5c6ac4',
                 backgroundColor: 'white',
@@ -41,34 +41,27 @@ export default function Example() {
                 size={20}
                 color="#5c6ac4"
                 />
-            
+          
             </MenuButton>}>
                 
           
-          
-            <MenuItem>  
-                 <Link href="/#">
-                     Serviços 
-                </Link>
+
+            <MenuItem href="/portfolio"> 
+              
+                   <p>Portfólio</p>  
+                
             </MenuItem>
-        
-            <MenuItem> 
-                <Link href="/#">
-                    Orçamentos 
-                </Link>
+            <MenuItem href="/curriculum-dev-2021.pdf">
+                <p>Baixar Curriculum</p>     
             </MenuItem>
-            <MenuItem>
-                 <Link href="/curriculum-dev-2021.pdf">
-                     Baixar Curriculum
-                </Link>
-            </MenuItem>
+            
             <Divider />
             <MenuItem>
                 <Social />
             </MenuItem>
             
         </Menu> 
-        </div>
+        </>
        
     );
 }

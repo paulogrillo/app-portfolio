@@ -26,7 +26,7 @@ export default function Voltar(){
                         <strong>
                             <BiUpArrow 
                             activeClass="active" 
-                            className="cursor-pointer animate-pulse duration-1000 " size={35} color="blue" />
+                            className="cursor-pointer animate-pulse duration-1000 border-gray-800 opacity-80 " size={35} />
                         </strong>
                         <p className="mt-2 px-1">Subir</p>
                     </div>
