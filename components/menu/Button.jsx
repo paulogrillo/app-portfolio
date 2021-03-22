@@ -58,7 +58,7 @@ export default function Example() {
                 </Link>
             </MenuItem>
             <MenuItem>
-                 <Link href="/curriculum-2020.pdf">
+                 <Link href="/curriculum-dev-2021.pdf">
                      Baixar Curriculum
                 </Link>
             </MenuItem>
