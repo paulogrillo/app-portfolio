@@ -28,7 +28,7 @@ export default function Voltar(){
                             activeClass="active" 
                             className="cursor-pointer animate-pulse duration-1000 " size={35} color="black" />
                         </strong>
-                        <p className="mt-2 px-1">Subir</p>
+                        
                     </div>
             </Link>
     )
