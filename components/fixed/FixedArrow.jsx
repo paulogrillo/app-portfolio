@@ -20,7 +20,7 @@ export default function FixedArrow(){
              
                 
                     <svg 
-                    class="
+                    className="
                     animate-bounce 
                     flex 
                     justify-center 

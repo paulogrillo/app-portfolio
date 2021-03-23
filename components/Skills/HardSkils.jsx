@@ -35,22 +35,22 @@ import {
 
 export default function HardSkils(){
     return(
-  <div class="py-4 bg-white">
+  <div className="py-4 bg-white">
      <div className="flex justify-center w-full py-6">
-      <p class="text-2xl leading-4 font-thin tracking-tight  text-gray-900 opacity-90 sm:text-4xl text-center sm:text-left  py-2">
+      <p className="text-2xl leading-4 font-thin tracking-tight  text-gray-900 opacity-90 sm:text-4xl text-center sm:text-left  py-2">
             Hard Skills
             </p>
      </div>
-    <div class="max-w-4xl mx-auto sm:px-6 lg:px-4 justify-center">
+    <div className="max-w-4xl mx-auto sm:px-6 lg:px-4 justify-center">
 
-       <dl class="space-y-20 md:space-y-0 md:grid md:grid-cols-4 md:gap-x-40 md:gap-y-10 w-full ">
+       <dl className="space-y-20 md:space-y-0 md:grid md:grid-cols-4 md:gap-x-40 md:gap-y-10 w-full ">
           
        
           {/* Segundo: Marketing */}
-      <div class="flex justify-center w-96">
+      <div className="flex justify-center w-96">
 
             <div 
-            class="
+            className="
               lg:ml-16
                bg-indigo-100 
                p-2 
@@ -64,7 +64,7 @@ export default function HardSkils(){
                transition duration-700
               ">
             <div 
-            class="
+            className="
               flex 
               self-center
               h-auto justify-center 
@@ -75,7 +75,7 @@ export default function HardSkils(){
               ">
                 <FcSalesPerformance size={36}/>
                 <dt 
-                class="
+                className="
                   text-lg 
                   leading-6 
                   font-medium 
@@ -86,7 +86,7 @@ export default function HardSkils(){
                 </dt>
               </div>
              
-              <dd class="mt-2 py-2">
+              <dd className="mt-2 py-2">
                <dt>
                  <p className="font-medium text-opacity-70  text-gray-700 py-2 space-y-2">
                  <hr/>
@@ -116,13 +116,13 @@ export default function HardSkils(){
 
                     
           {/* Segundo: Marketing */}
-          <div class="flex justify-center w-96">
+          <div className="flex justify-center w-96">
            
-            <div class="flex-shrink-0">      
+            <div className="flex-shrink-0">      
            
             </div>
             <div 
-            class="
+            className="
               
               lg:ml-16
                bg-indigo-100 
@@ -135,14 +135,14 @@ export default function HardSkils(){
                border-double
                transition duration-700
               ">
-            <div class="flex self-center h-auto justify-center rounded-md bg-indigo-500 text-white p-2">
+            <div className="flex self-center h-auto justify-center rounded-md bg-indigo-500 text-white p-2">
                 <FcPaid size={36}/>
-                <dt class="text-lg leading-6 font-medium p-1 m-px">
+                <dt className="text-lg leading-6 font-medium p-1 m-px">
                   E-commerce
               </dt>
               </div>
              
-              <dd class="mt-2 py-2 ">
+              <dd className="mt-2 py-2 ">
                <dt>
                  <p className="font-medium text-opacity-70  text-gray-700 py-2 space-y-2">
                  <hr/>
@@ -174,12 +174,12 @@ export default function HardSkils(){
 
                     
           {/* Segundo: Marketing */}
-          <div class="flex justify-center w-96">
-            <div class="flex-shrink-0">      
+          <div className="flex justify-center w-96">
+            <div className="flex-shrink-0">      
            
             </div>
             <div 
-            class="
+            className="
             sm:w-60  
           
               lg:ml-16
@@ -193,14 +193,14 @@ export default function HardSkils(){
                border-double
                transition duration-700
               ">
-            <div class="flex self-center h-auto justify-center rounded-md bg-indigo-500 text-white p-2">
+            <div className="flex self-center h-auto justify-center rounded-md bg-indigo-500 text-white p-2">
                 <FcMultipleDevices size={36}/>
-                <dt class="text-lg leading-6 font-medium p-1 m-px">
+                <dt className="text-lg leading-6 font-medium p-1 m-px">
                 Web development
               </dt>
               </div>
              
-              <dd class="mt-2 py-2">
+              <dd className="mt-2 py-2">
                <dt>
                  <p className=" font-medium text-opacity-70  text-gray-700 py-2 space-y-2">
                  <hr/>
