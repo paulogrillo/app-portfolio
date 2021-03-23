@@ -4,7 +4,7 @@ import Social from '../social/Social'
 import Menu from '../menu/Menu'
 import { Element } from 'react-scroll'
 
-export default function Nav() {
+export default function NavMenu() {
   return (
     
     <nav className=" h-20 mx-auto md:px-40 
