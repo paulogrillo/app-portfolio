@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
       <title>Paulo Grillo</title>
       <meta property="og:title" content="My page title" key="title" />
-        <link rel="shortcut icon" href="/global/logo05.svg" />
+        <link rel="shortcut icon" href="/global/logo05.png" />
       </Head> 
       <Component {...pageProps} />
 

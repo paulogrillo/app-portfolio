@@ -43,24 +43,10 @@ export default function Example() {
                 />
             
             </MenuButton>}>
-                
-          
-          
-            <MenuItem>  
-                 <Link href="/#">
-                     Serviços 
-                </Link>
-            </MenuItem>
-        
-            <MenuItem> 
-                <Link href="/#">
-                    Orçamentos 
-                </Link>
-            </MenuItem>
-            <MenuItem>
-                 <Link href="/curriculum-2020.pdf">
+            <MenuItem href="/curriculum-dev-2021.pdf">
+                 
                      Baixar Curriculum
-                </Link>
+               
             </MenuItem>
             <Divider />
             <MenuItem>

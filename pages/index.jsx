@@ -1,4 +1,4 @@
-import Nav from '../components/nav/nav'
+import Nav from '../components/nav/Nav'
 import Hero from '../components/hero/Hero'
 import Skills from '../components/Skills/Skills'
 import LayerArrow from '../components/layer/LayerArrow'
@@ -23,7 +23,7 @@ import Voltar from '../components/fixed/Voltar'
 
 export default function IndexPage() {
   return (
-      <div>
+      <>
           <FixedMenu />
         <Nav />
       
@@ -49,9 +49,9 @@ export default function IndexPage() {
         <Projetos />
        
        <Voltar />
-        <Footer />
+      <Footer />
       
-      </div>
+      </>
   
   )
 }

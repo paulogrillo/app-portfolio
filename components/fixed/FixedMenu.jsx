@@ -1,7 +1,8 @@
-import {Link} from 'react-scroll';
+
 import React from 'react';
 
 import {BiUpArrow} from 'react-icons/bi'
+import { Link } from 'react-scroll';
 
 
 export default function FixedMenu(){
@@ -36,7 +37,7 @@ export default function FixedMenu(){
                     <p className="lg:text-2xl text-xl">Hard Skills</p>
                 </Link>
             </li>
-            
+        
             <div activeClass="active" 
                 to="skills" 
                 spy={true} 
@@ -94,7 +95,7 @@ export default function FixedMenu(){
                 spy={true} 
                 smooth={true} 
                 duration={500}>
-                    <p className="lg:text-2xl text-xl">Projetos</p>
+                    <p className="lg:text-2xl text-xl">Portfólio</p>
                 </Link>
             </li>
             </ul>

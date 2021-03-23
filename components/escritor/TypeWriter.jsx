@@ -13,29 +13,29 @@ function TypeWriter() {
   }, [count]);
 
   return (
-    <div className="h-40 sm:mb-48 px-12 "  >
+    <>
 
       {count ? (
-        <div>
-          <Typist avgTypingDelay={120} onTypingDone={() => setCount(0)}>
+        
+          <Typist  avgTypingDelay={180} stdTypingDelay={100} onTypingDone={() => setCount(0)}>
 
-            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-              <span class="block">Marketing, Peformance</span>
+            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-5xl  lg:w-96">
+              <span class="block">Marketing + Tecnologia </span>
 
-              <span class="block">&</span>
+              <span class="block text-indigo-600">=</span>
               <Typist.Delay count={5} delay={2000} />
-              <span class="block text-indigo-600">Transformação Digital</span>
-
+              <span class="block text-indigo-600"> Transformação Digital</span>
+            
             </h2>
-
+            
           </Typist>
-        </div>
+        
 
 
       ) : (
         ""
       )}
-    </div>
+    </>
   );
 }
 

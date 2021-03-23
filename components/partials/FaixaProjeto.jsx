@@ -10,7 +10,7 @@ export default function FaixaProjeto(){
                 className="h-20"
               />
           <h2 class="h-20 py-1 px-2 mt-4 text-4xl text-gray-50 font-semibold tracking-wide uppercase align-text-top">
-         Projetos
+          Portfólio
           </h2>
         </div>
     )

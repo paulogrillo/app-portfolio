@@ -17,15 +17,15 @@ export default function Nav() {
       <ul className="flex items-center justify-between p-8 ">
         <li className="flex space-x-2 space-y-2">
 
-          <div className="flex space-x-2">
+          <div className="flex space-x-2 space-y-1">
           <Image 
-            src="/global/logo05.svg"
-            width={22}
-            height={22}
+            src="/global/logo05.png"
+            width={36}
+            height={36}
   
           />
          
-          <p className="font-mono ">Paulo Grillo</p>
+          <p className="font-mono lg:text-2xl ">Paulo Grillo</p>
          
            
           </div>

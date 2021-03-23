@@ -1,7 +1,5 @@
 import { Container } from 'postcss';
 import React from 'react';
-
-
 import FixedArrow from '../fixed/FixedArrow'
 
 
