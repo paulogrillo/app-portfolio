@@ -2,7 +2,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Social from '../social/Social'
 import Menu from '../menu/Menu'
-import Layer from '../layer/Layer'
 import { Element } from 'react-scroll'
 
 export default function Nav() {
