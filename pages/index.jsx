@@ -19,6 +19,7 @@ import FaixaSoftSkills from '../components/partials/FaixaSoftSkills'
 import FaixaProjetos from '../components/partials/FaixaProjeto'
 
 import Voltar from '../components/fixed/Voltar'
+import HardSkils from '../components/Skills/HardSkils'
 
 
 export default function IndexPage() {
@@ -35,7 +36,7 @@ export default function IndexPage() {
         <Element name="skills">
           <FaixaHardSkills />         
         </Element>
-        <Skills />
+        <HardSkils />
 
 
         <Element name="softskils">
