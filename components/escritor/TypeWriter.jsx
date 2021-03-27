@@ -19,7 +19,7 @@ function TypeWriter() {
         
           <Typist  avgTypingDelay={180} stdTypingDelay={100} onTypingDone={() => setCount(0)}>
 
-            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-5xl  lg:w-96">
+            <h2 className="mt-5 h-36 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-5xl  lg:w-96">
               <span className="block">Marketing + Tecnologia </span>
 
               <span className="block text-indigo-600">=</span>
