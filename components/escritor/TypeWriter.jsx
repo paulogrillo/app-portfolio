@@ -3,6 +3,7 @@ import Typist from "react-typist";
 
 
 
+
 function TypeWriter() {
   const [count, setCount] = useState(1);
 
@@ -14,23 +15,32 @@ function TypeWriter() {
 
   return (
     <>
-
+       
       {count ? (
-        
-          <Typist  avgTypingDelay={180} stdTypingDelay={100} onTypingDone={() => setCount(0)}>
-
-            <h2 className="mt-5 h-36 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-5xl  lg:w-96">
-              <span className="block">Marketing + Tecnologia </span>
-
-              <span className="block text-indigo-600">=</span>
-              <Typist.Delay count={5} delay={2000} />
-              <span className="block text-indigo-600"> Transformação Digital</span>
-            
+         
+         
+          <Typist  
+          className="
+          bg-white
+          h-full
+          w-full
+          flex
+          justify-center
+          
+          "
+          avgTypingDelay={150} 
+          stdTypingDelay={200} 
+          onTypingDone={() => setCount(0)}
+          
+          >
+            <div className="">
+            <h2 className=" lg:text-3xl sm:text-xl text-gray-900 w-full">
+              <span className="">Marketing + Tecnologia = Transformação Digital </span> 
             </h2>
-            
+            </div>
+            <Typist.Delay ms={800} />
           </Typist>
-        
-
+          
 
       ) : (
         ""

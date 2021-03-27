@@ -7,7 +7,7 @@ import { Element } from 'react-scroll'
 export default function NavMenu() {
   return (
     
-    <nav className=" h-20 mx-auto md:px-40 
+    <nav className="mb-40 h-20 mx-auto md:px-40 
     ">
          <Element name="nav">
             <h2 class="h-2 py-1 px-2 mt-4 text-4xl text-gray-50 font-semibold tracking-wide uppercase align-text-top  ">
