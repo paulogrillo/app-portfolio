@@ -1,6 +1,5 @@
 import NavMenu from '../components/nav/NavMenu'
 import Hero from '../components/hero/Hero'
-import Skills from '../components/Skills/Skills'
 import LayerArrow from '../components/layer/LayerArrow'
 import React from 'react'
 

@@ -35,19 +35,18 @@ import {
 
 export default function HardSkils(){
     return(
-  <div className="py-4 bg-white">
-     <div className="flex justify-center w-full py-6">
+  <div className="py-20 flex justify-center bg-white">
 
-     </div>
-    <div className="max-w-4xl mx-auto sm:px-6 lg:px-4 justify-center">
+    <div className="max-w-6xl sm:px-6 lg:px-4 justify-center">
 
        <dl className="space-y-20 md:space-y-0 md:grid md:grid-cols-4 md:gap-x-40 md:gap-y-10 w-full ">
           
-                    
+      
+
+
+
           {/* Segundo: E-commerce */}
           <div className="flex justify-center w-96">
-           
-           
             <div 
             className="
            
@@ -69,7 +68,7 @@ export default function HardSkils(){
               </dt>
               </div>
              
-              <dd className="mt-2 py-2 ">
+              <dd className="mt-2 py-2 px-2 ">
                <dt>
                  <p className="font-medium text-opacity-70  text-gray-700 py-2 space-y-2">
                  <hr/>
