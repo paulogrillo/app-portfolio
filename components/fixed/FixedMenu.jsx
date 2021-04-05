@@ -7,7 +7,7 @@ import { Link } from 'react-scroll';
 
 export default function FixedMenu(){
     return(
-        <div className="z-50 lg:h-auto lg:grid lg:inset-y-50 flex-row lg:fixed grid absolute inset-y-60 ">
+        <div className="z-50 lg:h-auto lg:grid  flex-row lg:fixed grid absolute left-3/4 inset-y-60 ">
             <ul activeClass="active" className="lg:space-y-9 space-y-4 animate-pulse duration-1000">
                 
             

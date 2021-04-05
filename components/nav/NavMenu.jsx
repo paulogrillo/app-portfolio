@@ -31,7 +31,6 @@ export default function NavMenu() {
         </li>
             <ul className="flex items-center justify-between space-x-4">
           <Social />
-          <Menu />
           </ul>
        
       </ul>
