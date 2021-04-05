@@ -19,6 +19,7 @@ import FaixaProjetos from '../components/partials/FaixaProjeto'
 
 import Voltar from '../components/fixed/Voltar'
 import HardSkils from '../components/Skills/HardSkils'
+import Slider from '../components/slider/Slider'
 
 
 export default function IndexPage() {
@@ -29,6 +30,7 @@ export default function IndexPage() {
       
         
         <Hero />
+        <Slider />
         
        
         

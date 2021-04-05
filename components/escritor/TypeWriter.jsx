@@ -34,8 +34,10 @@ function TypeWriter() {
           
           >
             <div className="">
-            <h2 className=" lg:text-3xl sm:text-xl text-gray-900 w-full">
-              <span className="">Marketing + Tecnologia = Transformação Digital </span> 
+            <h2 className=" lg:text-3xl sm:text-xl  w-full font-mono">
+              <span className="text-gray-900">Marketing + Tecnologia = </span> 
+              <span className="text-red-600"> Transformação Digital </span> 
+
             </h2>
             </div>
             <Typist.Delay ms={800} />
