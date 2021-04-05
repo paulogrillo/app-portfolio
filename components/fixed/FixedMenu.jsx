@@ -7,20 +7,23 @@ import { Link } from 'react-scroll';
 
 export default function FixedMenu(){
     return(
-        <div className="z-50 lg:h-auto lg:grid  flex-row lg:fixed grid absolute left-3/4 inset-y-60 ">
+        <div className="z-50 lg:h-auto lg:grid  flex-row lg:fixed grid absolute lg:right-40 lg:inset-y-40 inset-y-80  ">
             <ul activeClass="active" className="lg:space-y-9 space-y-4 animate-pulse duration-1000">
                 
             
             <li  className="
                     text-center
-                    text-base
                     font-semibold
                     rounded-full
+                    lg:rounded-l-full
                     rounded-l-none
+                    opacity-80
+                    
+                    
                     text-white
                     bg-green-400 
-                    hover:bg-green-600                         lg:w-60 w-40
-                    lg:h-10 h-10
+                    hover:bg-green-600                         lg:w-60 w-32
+                    lg:h-10 h-8
                     py-1
                     cursor-pointer
                     duration-300
@@ -34,7 +37,7 @@ export default function FixedMenu(){
                 spy={true} 
                 smooth={true} 
                 duration={500}>
-                    <p className="lg:text-2xl text-xl">Hard Skills</p>
+                    <p className="lg:text-2xl text-sm">Hard Skills</p>
                 </Link>
             </li>
         
@@ -48,12 +51,14 @@ export default function FixedMenu(){
                     text-base
                     font-semibold
                     rounded-full
+                    lg:rounded-l-full
                     rounded-l-none
+                    opacity-80
                     text-white
                     bg-green-400 
                     hover:bg-green-600
-                    lg:w-60 w-40
-                    lg:h-10 h-10
+                    lg:w-60 w-32
+                    lg:h-10 h-8
                     py-1
                     cursor-pointer
                     duration-300
@@ -67,7 +72,7 @@ export default function FixedMenu(){
                 spy={true} 
                 smooth={true} 
                 duration={500}>
-                    <p className="lg:text-2xl text-xl">Soft Skills</p>
+                    <p className="lg:text-2xl text-sm">Soft Skills</p>
                 </Link>
                     
                 
@@ -78,12 +83,14 @@ export default function FixedMenu(){
                     text-base
                     font-semibold
                     rounded-full
+                    lg:rounded-l-full
                     rounded-l-none
+                    opacity-80
                     text-white
                     bg-green-400 
                     hover:bg-green-600
-                    lg:w-60 w-40
-                    lg:h-10 h-10
+                    lg:w-60 w-32
+                    lg:h-10 h-8
                     py-1
                     cursor-pointer
                     duration-300
@@ -95,7 +102,7 @@ export default function FixedMenu(){
                 spy={true} 
                 smooth={true} 
                 duration={500}>
-                    <p className="lg:text-2xl text-xl">Portfólio</p>
+                    <p className="lg:text-2xl text-sm">Portfólio</p>
                 </Link>
             </li>
             </ul>
