@@ -40,7 +40,7 @@ export default function SoftSkils(){
           <div className="w-60">
               <div className=" w-60 flex items-center justify-center p-2 rounded-md transition delay-150 text-white border-double border-4 border-purple-300 bg-indigo-200 hover:border-purple-800">
               <dt className="leading-6 text-base text-black">
-              Agil
+              Ágil
               </dt>
               </div>
           </div>
