@@ -34,7 +34,7 @@ function TypeWriter() {
           
           >
             <div className="">
-            <h2 className=" lg:text-3xl sm:text-xl  w-full font-mono">
+            <h2 className=" lg:text-4xl sm:text-xl  w-full font-mono">
               <span className="text-gray-900">Marketing + Tecnologia = </span> 
               <span className="text-red-600"> Transformação Digital </span> 
 
