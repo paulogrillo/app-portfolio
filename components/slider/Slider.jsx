@@ -7,18 +7,18 @@ export default () => {
   const [activeItemIndex, setActiveItemIndex] = useState(0);
   const chevronWidth = 40;
   return (
-    <div style={{ padding: `0 ${chevronWidth}px` }}>
+    <div  style={{ padding: `0 ${chevronWidth}px` }}>
       <ItemsCarousel
         requestToChangeActive={setActiveItemIndex}
         activeItemIndex={activeItemIndex}
         numberOfCards={4}
         
-        
-        gutter={10}
+        gutter={5}
         leftChevron={
           
         <button 
         className="
+          z-auto
           absolute 
           lg:inset-x-4 
           mb-32 text-2xl 
@@ -29,17 +29,16 @@ export default () => {
 
 
         rightChevron={
+          
         <button 
         className="
-          absolute 
-          lg:inset-x-4 
-          lg:mb-32
-          sm:mb-30 
-          mr-10 
+          absolute
+          sm:mb-32
+          inset-4
           text-2xl 
           sm:text-4xl 
           text-gray-700"
-          >{'>'}
+          >
           </button>}
         outsideChevron
         chevronWidth={chevronWidth}

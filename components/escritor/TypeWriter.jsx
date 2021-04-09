@@ -21,9 +21,10 @@ function TypeWriter() {
          
           <Typist  
           className="
+          
           bg-white
-          h-full
           w-full
+          h-full
           flex
           justify-center
           
@@ -33,8 +34,8 @@ function TypeWriter() {
           onTypingDone={() => setCount(0)}
           
           >
-            <div className="">
-            <h2 className=" lg:text-4xl sm:text-xl  w-full font-mono">
+            <div className="backdrop-filter backdrop-grayscale backdrop-blur-md backdrop-contrast-200">
+            <h2 className=" lg:text-4xl sm:text-xl  font-mono">
               <span className="text-gray-900">Marketing + Tecnologia = </span> 
               <span className="text-red-600"> Transformação Digital </span> 
 

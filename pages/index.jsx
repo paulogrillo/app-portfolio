@@ -30,6 +30,7 @@ export default function IndexPage() {
       
         
         <Hero />
+        
         <Slider />
         
        
