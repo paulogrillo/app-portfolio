@@ -15,8 +15,32 @@ export default () => {
         
         
         gutter={10}
-        leftChevron={<button className="absolute inset-x-4 mb-32 text-2xl sm:text-4xl text-gray-700">{'<'}</button>}
-        rightChevron={<button className="absolute inset-x-4 mb-32 text-2xl sm:text-4xl text-gray-700">{'>'}</button>}
+        leftChevron={
+          
+        <button 
+        className="
+          absolute 
+          lg:inset-x-4 
+          mb-32 text-2xl 
+          sm:text-4xl 
+          text-gray-700">
+            {'<'}
+        </button>}
+
+
+        rightChevron={
+        <button 
+        className="
+          absolute 
+          lg:inset-x-4 
+          lg:mb-32
+          sm:mb-30 
+          mr-10 
+          text-2xl 
+          sm:text-4xl 
+          text-gray-700"
+          >{'>'}
+          </button>}
         outsideChevron
         chevronWidth={chevronWidth}
         
