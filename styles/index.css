@@ -1,0 +1,47 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+html,
+body {
+  @apply bg-white dark:bg-gray-900;
+}
+
+/* Write your own custom component styles here */
+.btn-blue {
+  @apply px-4 py-2 font-bold text-white bg-blue-500 rounded;
+}
+.hello-world {
+  color: #3E454C;
+}
+.welcome{
+  color: #FF7F66;
+
+}
+@media (max-width: 600px){
+  .welcome{
+    font-size: 2rem;
+  } 
+}
+
+.grid-container{
+
+  justify-content: space-between;
+  display: flex;
+
+  
+
+}
+
+.grid-item{
+
+}
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
