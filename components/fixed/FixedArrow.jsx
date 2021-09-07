@@ -1,5 +1,7 @@
 import { background } from '@chakra-ui/react'
 import { BiGame } from 'react-icons/bi'
+
+
 import { RiArrowDropDownLine } from 'react-icons/ri'
 
 import { Link} from 'react-scroll'
@@ -28,11 +30,7 @@ export default function FixedArrow(){
                     justify-center 
                     w-20 h-20
                     ">
-                        <RiArrowDropDownLine 
-                            size={40} 
-                            className=""
-                            
-                        />
+                        <RiArrowDropDownLine size={40}/>
                         
                     </svg>
               

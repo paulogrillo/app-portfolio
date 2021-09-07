@@ -27,9 +27,7 @@ import {
 
 export default function Skills(){
     return(
-        <div className="lg:flex justify-center">
-           
-           
+        <div className="lg:flex justify-center lg:h-96 bg-white">         
            <div 
             class="
                 grid-item

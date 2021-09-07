@@ -9,7 +9,8 @@ export default function Nav() {
   return (
     
     <nav className=" h-20 mx-auto md:px-40 
-    ">
+   bg-white
+   ">
          <Element name="nav">
             <h2 class="h-2 py-1 px-2 mt-4 text-4xl text-gray-50 font-semibold tracking-wide uppercase align-text-top  ">
             </h2>
