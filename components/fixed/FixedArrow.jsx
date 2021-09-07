@@ -9,7 +9,7 @@ import { Link} from 'react-scroll'
 
 export default function FixedArrow(){
     return(
-        <div className="flex h-20 justify-center">
+        <div className="flex h-20 justify-center bg-white">
             <Link 
                 activeClass="active" 
                 className="p-0 w-20 h-10" 

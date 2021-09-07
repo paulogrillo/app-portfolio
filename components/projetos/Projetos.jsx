@@ -8,7 +8,7 @@ export default function Projetos(){
     return(
     <div > 
         
-        <div class="py-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="py-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-white">
         <h2 class=" font-extrabold tracking-tight  sm:text-5xl">
               <span class="block welcome opacity-8">Em construção...</span>
             </h2>
