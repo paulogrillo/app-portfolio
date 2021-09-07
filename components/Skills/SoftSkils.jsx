@@ -5,7 +5,7 @@ export default function SoftSkils(){
     return(
   <div class="py-12 lg:h-96 bg-white">
          <div className="flex justify-center w-full py-6">
-            <p class="text-2xl leading-4 font-thin tracking-tight  text-gray-900 opacity-90 sm:text-4xl text-center sm:text-left  py-2">
+            <p class="text-2xl leading-4 font-thin tracking-tight  text-gray-900 opacity-90 sm:text-4xl text-center sm:text-left  py-2 ">
            
             </p>
           </div>
