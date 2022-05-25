@@ -29,8 +29,8 @@ export default function Example() {
                 border: '2px solid #3E454C',
 
                 hover: {
-                    color: '#f8f8f8',
-                    backgroundColor: '#ffffff'
+                    color: '#f8f8f8'
+                    
                 },
                
 
@@ -46,12 +46,7 @@ export default function Example() {
           
 
             <MenuItem href="/portfolio"> 
-              
                    <p>Portfólio</p>  
-                
-            </MenuItem>
-            <MenuItem href="/curriculum-dev-2021.pdf">
-                <p>Baixar Curriculum</p>     
             </MenuItem>
             
             <Divider />

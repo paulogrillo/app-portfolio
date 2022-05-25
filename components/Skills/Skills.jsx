@@ -27,12 +27,15 @@ import {
 
 export default function Skills(){
     return(
-        <div className="lg:flex justify-center lg:h-96 bg-white ">         
+        <div className="lg:flex md:grid-cols-2 sm:grid justify-center bg-white ">         
            <div 
             class="
                 grid-item
                bg-indigo-100 
-               lg:w-80 sm:max-w-full h-auto lg:m-20 
+               lg:w-80 
+               sm:max-w-full 
+              
+               lg:m-20 
                my-10 m-4
                text-center 
                rounded-md 

@@ -8,7 +8,7 @@ export default function Hero({Children}){
     return(
         
             <div 
-            class="bg-white container lg:mt-40 ">
+            class="container lg:mt-40 ">
             
             
 

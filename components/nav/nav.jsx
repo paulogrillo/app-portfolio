@@ -8,8 +8,7 @@ import { Element } from 'react-scroll'
 export default function Nav() {
   return (
     
-    <nav className=" h-20 mx-auto md:px-40 
-   bg-white
+    <nav className="  mx-auto md:px-40 
    ">
          <Element name="nav">
             <h2 class="h-2 py-1 px-2 mt-4 text-4xl text-gray-50 font-semibold tracking-wide uppercase align-text-top  ">
@@ -26,14 +25,13 @@ export default function Nav() {
   
           />
          
-          <p className="font-mono ">Paulo Grillo</p>
+          <p className="font-mono text-green-50">Paulo Grillo</p>
          
            
           </div>
         </li>
             <ul className="flex items-center justify-between space-x-4">
           <Social />
-          <Menu />
           </ul>
        
       </ul>

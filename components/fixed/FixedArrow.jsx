@@ -9,7 +9,7 @@ import { Link} from 'react-scroll'
 
 export default function FixedArrow(){
     return(
-        <div className="flex h-20 justify-center bg-white">
+        <div className="flex  justify-center ">
             <Link 
                 activeClass="active" 
                 className="p-0 w-20 h-10" 
@@ -28,9 +28,8 @@ export default function FixedArrow(){
                     duration-200
                     flex 
                     justify-center 
-                    w-20 h-20
                     ">
-                        <RiArrowDropDownLine size={40}/>
+                        <RiArrowDropDownLine size={80} className="text-gray-800"/>
                         
                     </svg>
               
