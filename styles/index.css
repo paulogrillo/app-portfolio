@@ -8,7 +8,7 @@
 
 html,
 body {
-  @apply bg-white dark:bg-gray-900;
+  @apply bg-black dark:bg-gray-900;
 }
 
 /* Write your own custom component styles here */
@@ -16,10 +16,10 @@ body {
   @apply px-4 py-2 font-bold text-white bg-blue-500 rounded;
 }
 .hello-world {
-  color: #3E454C;
+  color: #e9ed1e;
 }
 .welcome{
-  color: #FF7F66;
+  color: #66ffa8;
 
 }
 @media (max-width: 600px){
@@ -37,6 +37,27 @@ body {
 
 }
 
+.bg-main {
+  background-image: url("https://www.goodcore.co.uk/blog/wp-content/webp-express/webp-images/uploads/2019/08/what-is-coding.png.webp");
+  background-size: auto auto;
+	animation: gradient 50s ease infinite;
+	height: auto;
+  z-index: 1;
+  opacity: 95%;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 .grid-item{
 
 }
