@@ -23,7 +23,7 @@ import Voltar from '../components/fixed/Voltar'
 
 export default function IndexPage() {
   return (
-      <div>
+      <div className="bg-main">
           <FixedMenu />
         <Nav />
       
